@@ -290,15 +290,15 @@ nav ul li:hover, nav ul li.active {
 #relative-name {
   position: relative;
   left: 10px;
-  bottom: 5px;
+  top: 5px;
   font-weight: bold;
   font-size: 18px;
 }
 
 #relative-at {
   position: relative;
-  bottom: 5px;
   left: 10px;
+  top: 5px;
   font-size: 18px;
 }
 
