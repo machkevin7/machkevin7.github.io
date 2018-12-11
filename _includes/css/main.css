@@ -202,15 +202,9 @@ nav ul li:hover, nav ul li.active {
 }
 
 .project-box {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   width: "420";
   height: "196";
   display: block;
-  padding: "5px";
   border: 2px solid black;
   opacity: 0;
   transition: .5s ease;
