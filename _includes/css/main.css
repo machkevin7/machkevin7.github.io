@@ -211,7 +211,7 @@ nav ul li:hover, nav ul li.active {
   position: absolute;
   top: 50%;
   bottom: 50%;
-  left: 10%;
+  left: 0;
   right: 0;
   height: 100%;
   width: 100%;
