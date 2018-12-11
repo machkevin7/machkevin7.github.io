@@ -198,6 +198,7 @@ nav ul li:hover, nav ul li.active {
   position: relative;
   width: "420";
   height: "196";
+  padding: 20px;
 }
 
 .image {
@@ -223,7 +224,7 @@ nav ul li:hover, nav ul li.active {
   text-align: "center";
 }
 
-.image-container .project-description {
+.project-box .project-description {
   color: black;
   font-size: 20px;
   padding: 16px 32px;
@@ -256,10 +257,6 @@ nav ul li:hover, nav ul li.active {
 }
 
 .image-container:hover .project-box {
-  opacity: 1;
-}
-
-.image-container:hover .project-description {
   opacity: 1;
 }
 
