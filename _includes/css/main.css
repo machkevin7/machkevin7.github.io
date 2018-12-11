@@ -190,6 +190,7 @@ nav ul li:hover, nav ul li.active {
 .project-container {
   position: relative;
   width: 50%;
+  float: left;
   padding: 20px;
 }
 
@@ -211,7 +212,7 @@ nav ul li:hover, nav ul li.active {
   position: absolute;
   top: 50%;
   bottom: 50%;
-  left: 0;
+  left: 20%;
   right: 0;
   height: 100%;
   width: 100%;
