@@ -187,8 +187,10 @@ nav ul li:hover, nav ul li.active {
   transform: scale(1.1) rotate(4deg);
 }
 
-.columns {
+.container {
   float: left;
+  display: flex;
+  flex-direction: row;
   width: 50%;
   padding: 100px;
 }
