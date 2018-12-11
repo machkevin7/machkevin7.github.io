@@ -188,9 +188,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .container {
-  float: left;
-  display: flex;
-  flex-direction: row;
+  position: relative;
   width: 50%;
   padding: 100px;
 }
