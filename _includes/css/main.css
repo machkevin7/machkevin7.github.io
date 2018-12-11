@@ -197,6 +197,8 @@ nav ul li:hover, nav ul li.active {
 .image {
   opacity: 1;
   display: block;
+  width: "420";
+  height: "196";
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -324,7 +326,7 @@ nav ul li:hover, nav ul li.active {
 #relative-name {
   position: relative;
   left: 10px;
-  top: 23px;
+  top: 21px;
   font-weight: bold;
   font-size: 18px;
 }
@@ -332,7 +334,7 @@ nav ul li:hover, nav ul li.active {
 #relative-at {
   position: relative;
   left: 10px;
-  top: 23px;
+  top: 21px;
   font-size: 18px;
 }
 
@@ -341,16 +343,6 @@ nav ul li:hover, nav ul li.active {
   font-size: 30px;
   padding: 20px;
   line-height: 30px;
-}
-
-.img {
-  position: relative;
-  bottom: 13px;
-  align: left;
-}
-
-.after-space {
-  margin-bottom: 20px;
 }
 
 /* ----- fork on github banner ----- */
