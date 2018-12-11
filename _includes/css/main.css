@@ -206,7 +206,7 @@ nav ul li:hover, nav ul li.active {
   opacity: 0;
   position: absolute;
   top: 75%;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -221,50 +221,32 @@ nav ul li:hover, nav ul li.active {
 }
 
 .text {
-  background-color: #4CAF50;
+  border: 2px solid black;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
 
-.imgWrap {
-    display: inline-block;
-    background-color: #fff;
-    -moz-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -o-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;
+.project-box {
+  width: "420";
+  height: "196";
+  padding: "5px";
+  border: 2px solid black;
+  opacity: 0;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
-.imgWrap img {
-    opacity: 1;
-    -moz-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -o-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;
+.project-description {
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
-.imgWrap:hover {
-    background-color: #fff;
-    opacity: 0.75;
-    -moz-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -o-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;
+.project-box:hover {
+  opacity: 1;
 }
 
-img:hover,
-.imgWrap:hover img {
-    opacity: 0;
-    -moz-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -o-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;
-}
 /* ----- sections/articles ----- */
 
 .section {
