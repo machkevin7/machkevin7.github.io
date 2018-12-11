@@ -189,7 +189,7 @@ nav ul li:hover, nav ul li.active {
 
 .project-container {
   position: relative;
-  float: center;
+  float: left;
   width: 50%;
   padding: 20px;
 }
