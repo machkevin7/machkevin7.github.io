@@ -204,6 +204,10 @@ nav ul li:hover, nav ul li.active {
   left: 10px;
 }
 
+.bold {
+  font-weight: 700px;
+}
+
 /* ----- sections/articles ----- */
 
 .section {
