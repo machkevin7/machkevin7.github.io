@@ -193,9 +193,15 @@ nav ul li:hover, nav ul li.active {
   padding: 50px;
 }
 
-div.relative {
+#relative-name {
   position: relative;
-  left: 500px;
+  left: 120px;
+  font-weight: bold;
+}
+
+#relative-at {
+  position: relative;
+  left: 120px;
 }
 
 /* ----- sections/articles ----- */
