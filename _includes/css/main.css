@@ -236,19 +236,26 @@ nav ul li:hover, nav ul li.active {
   display: block;
   transition: .5s ease;
   backface-visibility: hidden;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .project-description {
   color: black;
   font-size: 16px;
   padding: 16px 32px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
 }
 
-.project-box:hover {
+.project-container:hover .project-box {
   opacity: 1;
 }
 
-.project-box:hover .project-description {
+.project-container:hover .project-description {
   opacity: 1;
 }
 
