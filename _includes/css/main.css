@@ -215,7 +215,8 @@ nav ul li:hover, nav ul li.active {
 }
 
 .project-container:hover .image {
-  opacity: 0.3;
+  color: white;
+  opacity: 0.5;
 }
 
 .project-container:hover .middle {
