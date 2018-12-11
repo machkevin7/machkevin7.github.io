@@ -70,7 +70,7 @@ hr {
 
 .container h1, .container h2, .container h3, .container h4 {
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
   padding: 0 4%;
 }
 .container p, .container ol, .container ul {
@@ -193,25 +193,6 @@ nav ul li:hover, nav ul li.active {
   padding: 50px;
 }
 
-#relative-name {
-  position: relative;
-  left: 10px;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-#relative-at {
-  position: relative;
-  left: 10px;
-  font-size: 18px;
-}
-
-#relative-intro {
-  position: absolute;
-  top: 20px;
-  align: left;
-}
-
 /* ----- sections/articles ----- */
 
 .section {
@@ -306,6 +287,24 @@ nav ul li:hover, nav ul li.active {
 .longlist { font-size: 14px !important; }
 .longlist li { margin-bottom: 3px; }
 
+#relative-name {
+  position: relative;
+  left: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#relative-at {
+  position: relative;
+  left: 10px;
+  font-size: 18px;
+}
+
+.intro-text {
+  align-text: left;
+  font-size: 30px;
+  padding: 15px;
+}
 
 
 /* ----- fork on github banner ----- */
