@@ -187,7 +187,7 @@ nav ul li:hover, nav ul li.active {
   transform: scale(1.1) rotate(4deg);
 }
 
-.container {
+.container-project {
   float: left;
   width: 50%;
   padding: 100px;
@@ -213,12 +213,12 @@ nav ul li:hover, nav ul li.active {
   text-align: center;
 }
 
-.container:hover .image {
+.container-project:hover .image {
   color: white;
   opacity: 0.3;
 }
 
-.container:hover .middle {
+.container-project:hover .middle {
   opacity: 1;
 }
 
