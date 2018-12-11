@@ -213,7 +213,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .project-container:hover .image {
-  color: white;
+  background-color: white;
   opacity: 0.75;
 }
 
