@@ -191,7 +191,7 @@ nav ul li:hover, nav ul li.active {
   position: relative;
   float: center;
   width: 50%;
-  padding: 30px;
+  padding: 20px;
 }
 
 .image {
@@ -213,8 +213,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .project-container:hover .image {
-  background-color: white;
-  opacity: 0.75;
+  opacity: 0;
 }
 
 .project-container:hover .middle {
@@ -228,6 +227,44 @@ nav ul li:hover, nav ul li.active {
   padding: 16px 32px;
 }
 
+.imgWrap {
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #fff;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+.imgWrap img {
+    opacity: 1;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+.imgWrap:hover {
+    background-color: #000;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+img:hover,
+.imgWrap:hover img {
+    opacity: 0;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
 /* ----- sections/articles ----- */
 
 .section {
