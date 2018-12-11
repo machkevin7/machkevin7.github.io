@@ -248,7 +248,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .imgWrap:hover {
-    background-color: #000;
+    background-color: #fff;
     -moz-transition: all 1s linear;
     -ms-transition: all 1s linear;
     -o-transition: all 1s linear;
