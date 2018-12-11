@@ -220,11 +220,10 @@ nav ul li:hover, nav ul li.active {
   transition: .5s ease;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: "left";
+  text-align: "center";
 }
 
 .image-container .project-description {
-  border: 2px solid black;
   color: black;
   font-size: 16px;
   padding: 16px 32px;
