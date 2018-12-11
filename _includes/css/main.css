@@ -197,14 +197,16 @@ nav ul li:hover, nav ul li.active {
   position: relative;
   left: 10px;
   font-weight: bold;
+  font-size: 14px;
 }
 
 #relative-at {
   position: relative;
   left: 10px;
+  font-size: 14px;
 }
 
-.bold {
+.bold-font {
   font-weight: 700px;
 }
 
