@@ -69,6 +69,7 @@ hr {
 .left, .container .left { text-align: left; }
 
 .container h1, .container h2, .container h3, .container h4 {
+  margin-top: 20px;
   margin-bottom: 20px;
   text-align: left;
   padding: 0 4%;
@@ -206,7 +207,9 @@ nav ul li:hover, nav ul li.active {
   font-size: 14px;
 }
 
-.bold-font {
+#
+
+#bold-font {
   font-weight: 700px;
 }
 
