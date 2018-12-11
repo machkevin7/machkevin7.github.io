@@ -206,8 +206,9 @@ nav ul li:hover, nav ul li.active {
   font-size: 14px;
 }
 
-#intro-h2 {
-  margin-top: 20px;
+#relative-intro {
+  position: relative;
+  top: 20px;
   align: left;
 }
 
