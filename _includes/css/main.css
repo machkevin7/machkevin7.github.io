@@ -191,7 +191,7 @@ nav ul li:hover, nav ul li.active {
   position: relative;
   float: center;
   width: 50%;
-  padding: 10px;
+  padding: 20px;
 }
 
 .image {
@@ -229,7 +229,6 @@ nav ul li:hover, nav ul li.active {
 
 .imgWrap {
     display: inline-block;
-    border: 1px solid #000;
     background-color: #fff;
     -moz-transition: all 1s linear;
     -ms-transition: all 1s linear;
@@ -249,6 +248,7 @@ nav ul li:hover, nav ul li.active {
 
 .imgWrap:hover {
     background-color: #fff;
+    opacity: 0.75;
     -moz-transition: all 1s linear;
     -ms-transition: all 1s linear;
     -o-transition: all 1s linear;
