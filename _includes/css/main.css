@@ -290,7 +290,7 @@ nav ul li:hover, nav ul li.active {
 #relative-name {
   position: relative;
   left: 10px;
-  top: 15px;
+  top: 20px;
   font-weight: bold;
   font-size: 18px;
 }
@@ -298,7 +298,7 @@ nav ul li:hover, nav ul li.active {
 #relative-at {
   position: relative;
   left: 10px;
-  top: 15px;
+  top: 20px;
   font-size: 18px;
 }
 
@@ -313,6 +313,10 @@ nav ul li:hover, nav ul li.active {
   position: relative;
   bottom: 13px;
   align: left;
+}
+
+.after-space {
+  margin-bottom: 20px;
 }
 
 /* ----- fork on github banner ----- */
