@@ -195,6 +195,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .image {
+  position: relative;
   opacity: 1;
   display: block;
   transition: .5s ease;
@@ -210,14 +211,6 @@ nav ul li:hover, nav ul li.active {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.project-container:hover .image {
-  opacity: 0;
-}
-
-.project-container:hover .middle {
-  opacity: 1;
 }
 
 .text {
@@ -253,6 +246,14 @@ nav ul li:hover, nav ul li.active {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: left;
+}
+
+.project-container:hover .image {
+  opacity: 0;
+}
+
+.project-container:hover .middle {
+  opacity: 1;
 }
 
 .project-container:hover .project-box {
