@@ -233,6 +233,7 @@ nav ul li:hover, nav ul li.active {
   padding: "5px";
   border: 2px solid black;
   opacity: 0;
+  display: block;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -244,6 +245,10 @@ nav ul li:hover, nav ul li.active {
 }
 
 .project-box:hover {
+  opacity: 1;
+}
+
+.project-box:hover .project-description {
   opacity: 1;
 }
 
