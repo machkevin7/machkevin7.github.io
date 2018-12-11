@@ -306,6 +306,12 @@ nav ul li:hover, nav ul li.active {
   padding: 15px;
 }
 
+.img {
+  position: relative;
+  bottom: 13px;
+  align: left;
+  margin-bottom: 10px;
+}
 
 /* ----- fork on github banner ----- */
 #forkongithub a {
