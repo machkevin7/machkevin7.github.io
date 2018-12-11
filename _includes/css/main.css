@@ -195,13 +195,13 @@ nav ul li:hover, nav ul li.active {
 
 #relative-name {
   position: relative;
-  left: 120px;
+  left: 10px;
   font-weight: bold;
 }
 
 #relative-at {
   position: relative;
-  left: 120px;
+  left: 10px;
 }
 
 /* ----- sections/articles ----- */
