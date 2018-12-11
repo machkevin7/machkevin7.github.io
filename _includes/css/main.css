@@ -194,8 +194,11 @@ nav ul li:hover, nav ul li.active {
   padding: 20px;
 }
 
-.image {
+.img-container {
   position: relative;
+}
+
+.image {
   opacity: 1;
   display: block;
   transition: .5s ease;
@@ -226,8 +229,8 @@ nav ul li:hover, nav ul li.active {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
-  height: 100%;
+  width: "420";
+  height: "196";
   padding: "5px";
   border: 2px solid black;
   opacity: 0;
