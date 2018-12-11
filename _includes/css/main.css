@@ -203,28 +203,22 @@ nav ul li:hover, nav ul li.active {
 
 .project-box {
   position: absolute;
-  left: 100px;
-  top: 100px;
   width: "200";
   height: "200";
-  display: block;
   border: 2px solid black;
   opacity: 0;
   transition: .5s ease;
-  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  text-align: "left";
 }
 
 .project-description {
+  border: 2px solid black;
   color: black;
   font-size: 16px;
   position: absolute;
   padding: 16px 32px;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: left;
 }
 
 .middle {
