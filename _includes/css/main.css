@@ -187,10 +187,10 @@ nav ul li:hover, nav ul li.active {
   transform: scale(1.1) rotate(4deg);
 }
 
-.column {
+.project-container {
   float: left;
   width: 50%;
-  padding: 100px;
+  padding: 10px;
 }
 
 .image {
@@ -213,11 +213,11 @@ nav ul li:hover, nav ul li.active {
   text-align: center;
 }
 
-.container-project:hover .image {
+.project-container:hover .image {
   opacity: 0.3;
 }
 
-.container-project:hover .middle {
+.project-container:hover .middle {
   opacity: 1;
 }
 
