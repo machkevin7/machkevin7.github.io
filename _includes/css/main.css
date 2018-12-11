@@ -211,7 +211,7 @@ nav ul li:hover, nav ul li.active {
   position: absolute;
   top: 50%;
   bottom: 50%;
-  left: 50%;
+  left: 10%;
   right: 0;
   height: 100%;
   width: 100%;
@@ -225,7 +225,7 @@ nav ul li:hover, nav ul li.active {
 
 .image-container .project-description {
   color: black;
-  font-size: 16px;
+  font-size: 20px;
   padding: 16px 32px;
 }
 
