@@ -187,6 +187,15 @@ nav ul li:hover, nav ul li.active {
   transform: scale(1.1) rotate(4deg);
 }
 
+.intro-container {
+  position: relative;
+  width: 840px;
+  height: 350px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: '#ffffff';
+}
+
 .project-container {
   position: relative;
   float: left;
