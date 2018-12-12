@@ -220,8 +220,8 @@ nav ul li:hover, nav ul li.active {
 
 .project-box {
   position: absolute;
-  bottom: -108px;
-  right: -214px;
+  bottom: -110px;
+  right: -220px;
   height: 100%;
   width: 100%;
   border: 2px solid black;
