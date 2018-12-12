@@ -192,12 +192,14 @@ nav ul li:hover, nav ul li.active {
   float: left;
   width: 50%;
   padding: 20px;
+  border: 1px solid black;
 }
 
 .image-container{
   position: relative;
   width: "420";
   height: "196";
+  border: 1px solid black;
 }
 
 .image {
