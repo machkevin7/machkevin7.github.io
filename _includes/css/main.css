@@ -243,7 +243,7 @@ nav ul li:hover, nav ul li.active {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 75%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -254,7 +254,7 @@ nav ul li:hover, nav ul li.active {
   border: 2px solid black;
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
+  padding: 10px 20px;
 }
 
 .image-container:hover .image {
@@ -362,6 +362,11 @@ nav ul li:hover, nav ul li.active {
 }
 .longlist { font-size: 14px !important; }
 .longlist li { margin-bottom: 3px; }
+
+.project-titles {
+  font-weight: bold;
+  font-size: 18px;
+}
 
 #relative-name {
   position: relative;
