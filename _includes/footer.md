@@ -1,6 +1,6 @@
 
 
-Design by Tim O'Brien [t413.com](http://t413.com/)
+Design by Kevin Mach and forked via
 &mdash;
 [SinglePaged theme](https://github.com/t413/SinglePaged)
 &mdash;
