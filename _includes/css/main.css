@@ -189,7 +189,7 @@ nav ul li:hover, nav ul li.active {
 
 .intro-container {
   position: relative;
-  width: 75%;
+  width: 100%;
   height: auto;
   padding: 20px;
   border: 1px solid black;
@@ -220,8 +220,8 @@ nav ul li:hover, nav ul li.active {
 
 .project-box {
   position: absolute;
-  bottom: -110px;
-  right: -220px;
+  bottom: -105px;
+  right: -218px;
   height: 100%;
   width: 100%;
   border: 2px solid black;
