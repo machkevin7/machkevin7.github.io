@@ -201,14 +201,12 @@ nav ul li:hover, nav ul li.active {
   float: left;
   width: 50%;
   padding: 35px;
-  border: 1px solid black;
 }
 
 .image-container{
   position: relative;
   width: "420";
   height: "196";
-  border: 1px solid black;
 }
 
 .image {
@@ -221,7 +219,7 @@ nav ul li:hover, nav ul li.active {
 .project-box {
   position: absolute;
   bottom: -96px;
-  right: -200px;
+  right: -202px;
   height: 100%;
   width: 100%;
   border: 2px solid black;
