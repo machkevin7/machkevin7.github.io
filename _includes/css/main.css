@@ -195,23 +195,28 @@ nav ul li:hover, nav ul li.active {
 }
 
 .circle-frame {
+  position: relative;
+  padding: 5px;
+  margin: 0; 
+}
+
+.circle-frame:before {
+  content: "";
   position: absolute;
-  left: 50%;
-  margin-left: -50px;
+  display: inline-block;
   border-radius: 50%;
   border: 2px solid white;
   height 150px;
   -moz-border-radius:50%;
   -webkit-border-radius: 50%;
-  width: 150px;
-  
+  width: 150px; 
 }
 
 .intro-container {
   position: relative;
   width: 100%;
   height: auto;
-  padding: 10px;
+  padding: 5px;
   border: 1px solid black;
   background-color: '#ffffff';
 }
@@ -421,6 +426,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .about-me-headings {
+  position: relative;
   font-family: "Arial, Helvetica, sans-serif";
   font-size: 36px;
   text-align: center;
