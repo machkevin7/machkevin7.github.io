@@ -267,6 +267,12 @@ nav ul li:hover, nav ul li.active {
   opacity: 1;
 }
 
+.about-me-container {
+  position: relative;
+  border: 1px solid white;
+  width: 100%;
+  height: auto;
+}
 /* ----- sections/articles ----- */
 
 .section {
