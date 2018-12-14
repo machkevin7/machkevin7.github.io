@@ -200,8 +200,10 @@ nav ul li:hover, nav ul li.active {
   margin-left: -50px;
   border-radius: 50%;
   border: 2px solid white;
-  width: 100px;
-  height 100px;
+  height 150px;
+  -moz-border-radius:50%;
+  -webkit-border-radius: 50%;
+  width: 150px;
   
 }
 
@@ -425,16 +427,14 @@ nav ul li:hover, nav ul li.active {
 }
 
 .about-me-info-yellow {
-  font-family: "Arial, Helvetica, sans-serif";
   font-size: 24px;
   color: yellow;
   text-align: center;
 }
 
 .about-me-info-black {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-  color: black;
+  color: white;
   text-align: center;
 }
 
