@@ -187,6 +187,17 @@ nav ul li:hover, nav ul li.active {
   transform: scale(1.1) rotate(4deg);
 }
 
+.about-me-boxes {
+  position: relative;
+  float: left;
+  width: 33%;
+  padding: 35px;
+}
+
+.circle-frame {
+  border-radius: 50%;
+}
+
 .intro-container {
   position: relative;
   width: 100%;
@@ -269,10 +280,12 @@ nav ul li:hover, nav ul li.active {
 
 .about-me-container {
   position: relative;
-  border: 1px solid white;
+  border: 2px solid white;
   width: 100%;
   height: auto;
+  padding: 20px;
 }
+
 /* ----- sections/articles ----- */
 
 .section {
@@ -392,6 +405,30 @@ nav ul li:hover, nav ul li.active {
   font-size: 30px;
   padding: 20px;
   line-height: 30px;
+}
+
+.about-me-text {
+  font-size: 16px;
+}
+
+.about-me-headings {
+  font-family: "Arial, Helvetica, sans-serif";
+  font-size: 24px;
+  text-align: center;
+}
+
+.about-me-info-yellow {
+  font-family: "Arial, Helvetica, sans-serif";
+  font-size: 16px;
+  color: yellow;
+  text-align: center;
+}
+
+.about-me-info-black {
+  font-family: "Arial, Helvetica, sans-serif";
+  font-size: 16px;
+  color: black;
+  text-align: center;
 }
 
 /* ----- fork on github banner ----- */
