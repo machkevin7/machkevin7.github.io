@@ -195,21 +195,18 @@ nav ul li:hover, nav ul li.active {
 }
 
 .circle-frame {
-  position: relative;
-  padding: 5px;
-  margin: 0; 
+  border: 3px solid #7E9CC2;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.circle-frame:before {
-  content: "";
-  position: absolute;
-  display: inline-block;
-  border-radius: 50%;
-  border: 2px solid white;
-  height 150px;
-  -moz-border-radius:50%;
-  -webkit-border-radius: 50%;
-  width: 150px; 
+.circle-frame i {
+  width: 80%;
+  height: auto;
 }
 
 .intro-container {
